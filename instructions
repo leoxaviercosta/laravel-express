@@ -29,3 +29,5 @@ https://www.digitalocean.com/community/tutorials/como-configurar-apache-virtual-
 -> Criado arquivo (.buildpacks) contendo o caminho do repositorio dos buidspacks necessários (necessário apenas quando de usa o buildpack-multi)
 -> Adicionar o arquivo ao repositório
 -> Adiciona o projeto ao git no heroku (git push heroku master)
+-> git push heroku master
+-> Configurar arquivo Procfile (servidor web utilizando apache2 e depois o document_root)
