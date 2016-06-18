@@ -1,0 +1,22 @@
+- Adicionando bibliotecas via composer
+-> composer require illuminate/html (name biblioteca)
+
+- Ctrl + Alt + O: otimiza todos os imposts da classe
+
+- dd(): die and dump;
+
+- middleware: intercepta a requisição verificando de acordo com a regra de negócio
+
+
+- Orientações Document Root
+Não há problema algum em usar o Apache para guardar outros projetos, mas está errado guardar todos os seus projetos num único document root. A fim de evitar conflitos e possíveis erros como este que você está passando, cada projeto deve ter seu próprio Document Root. No caso do Laravel, o Document Root é a pasta public.
+
+Você tem que criar um VirtualHost no Apache e definir o Document Root apontando para a pasta public ou usar o servidor embutido do PHP para executar seu projeto usando o comando php artisan serve.
+
+Devido à grande variedade de AMPs e infinitas configurações diferentes, não damos suporte a Apache.
+
+No entanto, aqui vai um manual de como criar VirtualHosts no Apache para Windows e Ubuntu:
+
+http://www.raphaelfiga.com/desenvolvimento/instalando-configurando-virtualhost-apache-windows/
+
+https://www.digitalocean.com/community/tutorials/como-configurar-apache-virtual-hosts-no-ubuntu-14-04-lts-pt
