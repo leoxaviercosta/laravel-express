@@ -31,3 +31,7 @@ https://www.digitalocean.com/community/tutorials/como-configurar-apache-virtual-
 -> Adiciona o projeto ao git no heroku (git push heroku master)
 -> git push heroku master
 -> Configurar arquivo Procfile (servidor web utilizando apache2 e depois o document_root)
+-> Command: heroku config:set (set as variaveis contidas em .env)
+-> Exec: heroku config:set APP_KEY=base64:The2Idib73JfIy5TEoGRugz+n6S/GgPU9zMcU554gp4= (APP_KEY que está em .env)
+-> heroku config:set APP_ENV=local (definindo como aplicação local)
+-> heroku config (retorna as variáveis de ambiente)
