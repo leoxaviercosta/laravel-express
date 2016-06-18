@@ -20,3 +20,12 @@ No entanto, aqui vai um manual de como criar VirtualHosts no Apache para Windows
 http://www.raphaelfiga.com/desenvolvimento/instalando-configurando-virtualhost-apache-windows/
 
 https://www.digitalocean.com/community/tutorials/como-configurar-apache-virtual-hosts-no-ubuntu-14-04-lts-pt
+
+- HEROKU
+-> Baixar toolbelt do heroku em https://toolbelt.heroku.com/
+-> No git bash executar heroku login
+-> Depois heroku create
+-> Criar arquivo buildpack (define ambiente do projeto, instruções para o heroku sobre o projeto - heroku-buildpack-multi - heroku config:add BUILDPACK_URL=urlGit)
+-> Criado arquivo (.buildpacks) contendo o caminho do repositorio dos buidspacks necessários (necessário apenas quando de usa o buildpack-multi)
+-> Adicionar o arquivo ao repositório
+-> Adiciona o projeto ao git no heroku (git push heroku master)
