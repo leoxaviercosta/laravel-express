@@ -35,3 +35,5 @@ https://www.digitalocean.com/community/tutorials/como-configurar-apache-virtual-
 -> Exec: heroku config:set APP_KEY=base64:The2Idib73JfIy5TEoGRugz+n6S/GgPU9zMcU554gp4= (APP_KEY que está em .env)
 -> heroku config:set APP_ENV=local (definindo como aplicação local)
 -> heroku config (retorna as variáveis de ambiente)
+-> Configurar variaveis de conexão com o banco de dados
+-> Exec: heroku run 'php artisan migrate' (executa os comandos comuns do php)
